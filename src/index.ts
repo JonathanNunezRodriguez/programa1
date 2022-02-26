@@ -2,7 +2,6 @@ import Programa1 from "./Programa1";
 import Prompt from "./Prompt";
 import ReadFile, { ProcessFileCallback } from "./ReadFile";
 
-//.i
 const main = async () => {
 
     const prompter = new Prompt();
@@ -59,6 +58,7 @@ const main = async () => {
                 programa.addLine('comment')
 
             } else programa.addLine('code');
+            
         } else {
 
             if (trimmedLine.includes('*/'))

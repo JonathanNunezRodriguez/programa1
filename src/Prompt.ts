@@ -2,9 +2,11 @@ import { createInterface, Interface, ReadLineOptions } from "readline";
 import { promisify } from "util";
 
 const interfaceOptions: ReadLineOptions = {
+
     input:  process.stdin,
+
     output:  process.stdout,
-}
+};
 
 class Prompt {
 
@@ -35,13 +37,13 @@ class Prompt {
 
             throw error;            
         }
-    }
+    };
 
     //.i
     closePrompt = () => {
         
         this.reader.close();
-    }
+    };
 }
 
 export default Prompt;
