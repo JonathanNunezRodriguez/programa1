@@ -1,0 +1,48 @@
+/* class Program1 {
+ *
+ *	// inicializar objeto con argumentos predeterminaods a 0
+ *	constructor(emptyLines = 0, commentLines = 0, codeLines = 0) {
+ *
+ * 		// asignar cada variable del objeto a las obtenidas en los argumentos
+ * 		this.emptyLines = emptyLines;
+ *  
+ *		this.commentLines = commentLines;
+ *
+ *		this.codeLines = codeLines;
+ *	}
+ *
+ *	get totalLines() {
+ *
+ *		return this.emptyLines + this.commentLines + this.codeLines;
+ *	}
+ *
+ *	//  metodo de agregar una linea de codigo al objeto dependiendo de la
+ *	//	variable del argumento.
+ *	//	La variable "type" solo puede ser igual a 'empty', 'comment' o 'code'. 
+ *	addLine(type) {
+ *
+ *		if (type === 'empty') return this.emptyLines++;
+ *
+ *		if (type === 'comment') return this.commentLines++;
+ *
+ *		if (type === 'code') return this.codeLines++;
+ *	}
+ *
+ *	printWithFormat(filename) {
+ *
+ *		console.log(`Nombre del archivo: ${filename}`);
+ *
+ *		console.log(`--------------------------------------------`);
+ *
+ *		console.log(`Cantidad de líneas en blanco: ${this.emptyLines}`);
+ *
+ *		console.log(`Cantidad de líneas con comentarios: ${this.commentLines}`);
+ *
+ *		console.log(`Cantidad de líneas con código: ${this.codeLines}`);
+ *
+ *		console.log(`--------------------------------------------`);
+ *
+ *		console.log(`Cantidad total de líneas: ${this.totalLines}`);
+ *	}
+ *} 
+ */
